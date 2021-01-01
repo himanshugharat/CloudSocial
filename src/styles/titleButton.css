@@ -1,0 +1,14 @@
+.btn-secondary {
+  color: #fff;
+  background-color: #6d6ef3;
+  border-color: #6c757d;
+}
+.bttn {
+  color: #fff;
+  background-color: #6d6ef3;
+  width: 100px;
+  height: 38px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

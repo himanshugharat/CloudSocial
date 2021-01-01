@@ -1,0 +1,29 @@
+@media (min-width: 1090px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    margin-left: 15%;
+  }
+}
+.container-fluid {
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+.AppBarBtn {
+  display: grid;
+  gap: 10px;
+}
+NavLink {
+  background-color: brown;
+  width: 10px;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show {
+  color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  text-decoration: underline solid red 5px;
+}
+a {
+  font-size: 80%;
+}
