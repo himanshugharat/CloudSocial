@@ -1,0 +1,23 @@
+.cover {
+  background-color: #f4f5f9;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+}
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 5%;
+}
+
+@media screen and (min-width: 768px) {
+  .video {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.videoCard {
+  padding-bottom: 5%;
+}

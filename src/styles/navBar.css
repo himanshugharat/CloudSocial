@@ -13,6 +13,11 @@
   display: grid;
   gap: 10px;
 }
+.header {
+  position: relative;
+  background-color: #fff;
+  z-index: 500;
+}
 NavLink {
   background-color: brown;
   width: 10px;

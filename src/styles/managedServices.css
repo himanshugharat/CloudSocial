@@ -1,0 +1,61 @@
+.serviceCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10%;
+  padding: 5% 0;
+}
+.serviceCard .card1 {
+  border-radius: 10%;
+  max-width: 267px;
+  max-height: 181px;
+  width: 267px;
+  height: 181px;
+}
+
+.serviceCard a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 10%;
+}
+.cardInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5%;
+  padding: 5% 0;
+}
+.cardInfo .card {
+  /* width: 439px;
+  height: 539px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #6d6ef3;
+  border-radius: 10%;
+  color: #ffffff;
+}
+.cardInfo .card ul {
+  list-style-type: "✓";
+  color: #ffffff;
+  padding-left: 1em;
+}
+.cardInfo .card li {
+  margin: 0 0 10px 0;
+  padding-left: 1em;
+}
+.cardInfo .card1 li span {
+  /* margin: 0 0 10px 0; */
+}
+::marker {
+  padding-right: 10% !important;
+}
+h1 {
+  font-size: 25px;
+}
+.contentElement {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

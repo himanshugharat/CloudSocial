@@ -6,9 +6,37 @@
   color: #232355;
   font-weight: bolder;
 }
-.btn {
+.bttonn {
   display: flex;
   flex-direction: row;
   justify-content: center;
   background-color: #fff;
+}
+.img {
+  width: 519px;
+  height: 344px;
+}
+ButtonGroup Button {
+  width: 427px;
+  height: 81px;
+}
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #232355;
+  border-color: #4e555b;
+}
+.top {
+  margin-top: 10%;
+}
+.btn-group,
+.btn-group-vertical {
+  width: 50%;
+  height: 10%;
+}
+.btn-group-vertical > .btn,
+.btn-group > .btn {
+  position: relative;
+  flex: 1 1;
 }

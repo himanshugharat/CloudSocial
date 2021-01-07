@@ -12,10 +12,10 @@ import logo from "../../asset/image/header-logo.png";
 const NavBar = () => {
   return (
     <div>
-      <Container fluid>
+      <Container fluid className="header">
         <Navbar collapseOnSelect expand="lg" color="black" variant="light">
           <Navbar.Brand href="#home">
-            <img src={logo}></img>
+            <img src={logo} alt="logo"></img>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -23,7 +23,7 @@ const NavBar = () => {
               <LinkContainer to="/Solutions">
                 <NavLink>Solutions</NavLink>
               </LinkContainer>
-              <LinkContainer to="/Resources">
+              <LinkContainer to="/Resources/video">
                 <NavLink>Resources</NavLink>
               </LinkContainer>
               <LinkContainer to="/Pricing">

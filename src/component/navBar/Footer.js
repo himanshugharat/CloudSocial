@@ -9,6 +9,7 @@ import Instagram from "@material-ui/icons/Instagram";
 import Mail from "@material-ui/icons/Mail";
 import "../../styles/footer.css";
 import Badge from "react-bootstrap/Badge";
+import { LinkContainer } from "react-router-bootstrap";
 
 const Footer = () => {
   return (
@@ -31,9 +32,15 @@ const Footer = () => {
               Copyright @ 2020 CloudSocial Technologies Pte Ltd.
             </Card.Subtitle>
             <div className="policy">
-              <Card.Subtitle className="data">FAQ</Card.Subtitle>
-              <Card.Subtitle className="data">Terms of Service</Card.Subtitle>
-              <Card.Subtitle className="data">Privacy & Policy</Card.Subtitle>
+              <LinkContainer to="/faq#">
+                <a className="data">FAQ</a>
+              </LinkContainer>
+              <LinkContainer to="/TermsofService#">
+                <a className="data">Terms of Service</a>
+              </LinkContainer>
+              <LinkContainer to="/Privacy&Policy#">
+                <a className="data">Privacy & Policy</a>
+              </LinkContainer>
             </div>
             <Card.Subtitle className="policy">
               <Badge variant="warning">1</Badge>
